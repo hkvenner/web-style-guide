@@ -1,0 +1,48 @@
+//******************************************
+// Variables
+//******************************************
+
+//==========================
+//Fonts
+//==========================
+
+//Font Stack
+$font-family--primary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+// Font Weights
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 700;
+$font-weight--ultra-bold : 900;
+
+//==========================
+//Colors
+//==========================
+
+// Descriptive Base Colors
+
+$white    : #fff;
+$black    : #0b0b0b;
+$grey     : #797e83;
+
+$turquoise-blue  : #61EDBF;
+$sky-blue        : #61C5ED;
+$pastel-green    : #61ED7A;
+$mandy           : #ED6170;
+$bamboo          : #DF5807;
+$medium-purple   : #9254ED;
+
+$sky-blue--dark       : darken($sky-blue, 30% );
+$sky-blue--light      : lighten($sky-blue, 30%);
+$medium-purple--light : lighten($medium-purple, 30%);
+$pastel-green--light  : lighten($pastel-green, 20%);
+$mandy--light         : lighten($mandy, 20%);
+$bamboo--light        : lighten($bamboo,20%);
+
+
+//==========================
+//Breakpoints
+//==========================
+$break-sm : 480px;
+$break-lg : 1400px;
