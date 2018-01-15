@@ -9,17 +9,34 @@
 @mixin mq($break){
   @if $break == "small"{
     @media (min-width: $break-sm){
-      //find out how @content works
+      @content;
+    }
+  }
+  @else if $break == "large"{
+    @media (min-width: $break-lg){
       @content;
     }
   }
 
 }
-
 //==========================
 // FlexBox Settings
 //==========================
+@mixin flexProperty($direction){
+  display: flex;
+  flex-direction : $direction;
+}
 
 //====================================
-// Element and Modifier BEM Selectors
+// BEM Selectors
 //====================================
+@mixin e($element){
+  &__#{$element}{
+    @content;
+  }
+}
+@mixin m($modifier){
+  &--#{$modifier}{
+    @content;
+  }
+}

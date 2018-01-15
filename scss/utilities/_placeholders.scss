@@ -1,0 +1,43 @@
+//******************************************************************************
+// Placeholders
+//******************************************************************************
+
+
+//==========================
+// Links
+//==========================
+%link {
+  color: $sky-blue;
+  font-weight: $font-weight--medium;
+}
+
+//==========================
+// Images
+//==========================
+%img-roundy{
+  border-radius: 50%;
+}
+
+%img-border {
+  border: 2px solid #dfe2e6;
+}
+
+//==========================
+// Headlines
+//==========================
+%headline {
+  color: $turquoise-blue;
+  font-size: 3em;
+}
+
+//==========================
+// Nav Items
+//==========================
+%nav-item{
+  @include mq(small){
+    align-self:center;
+  }
+  @include mq(large){
+    margin-left: 4px;
+  }
+}

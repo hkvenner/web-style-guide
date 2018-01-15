@@ -1,0 +1,33 @@
+//******************************************************************************
+// Navigation
+//******************************************************************************
+
+.nav{
+  @include flexProperty(column);
+  align-items: center;
+  padding-left: 0px;
+  padding-bottom: 3.5em;
+  //justify-content: space-between;
+
+  @include e(item){
+    //padding-bottom: 10px;
+    padding-top: 20px;
+
+
+
+    //add hover and selected classes
+    & a{
+    text-decoration: none;
+    color: $black;
+    font-family: $font-family--primary;
+    width: 100%;
+    padding: 10px 100px;
+    border-radius : 8px;
+
+    &:hover {
+      background-color: $turquoise-blue;
+      color: $white;
+    }
+   }
+  }
+}

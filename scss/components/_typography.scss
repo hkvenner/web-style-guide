@@ -1,0 +1,22 @@
+//******************************************************************************
+// Typography
+//******************************************************************************
+
+// .container
+// .link
+// .blockquote
+// .headline--primary{
+//   font-family: $font-family--primary;
+//   color: $grey;
+// }
+.headline--primary{
+  color: $turquoise-blue;
+  font-family: $font-family--primary;
+  padding-left: 1em;
+}
+.headline--secondary{
+  font-family: $font-family--primary;
+  font-weight: $font-weight--thin;
+  color: $grey;
+}
+// .headline--secondary

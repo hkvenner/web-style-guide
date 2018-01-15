@@ -1,0 +1,18 @@
+//******************************************************************************
+// Base Styles
+//******************************************************************************
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  color: $grey;
+  font-weight: $font-weight--light;
+  font-family: $font-family--primary;
+  line-height: 1.5em;
+}

@@ -1,0 +1,15 @@
+//******************************************************************************
+// Grid
+//******************************************************************************
+
+.container {
+  @include flexProperty(column);
+  align-items: center;
+  padding-left:5%;
+  padding-right:5%;
+}
+.grid__row {
+  @include flexProperty(column);
+  align-items: center;
+  //width: 100%;
+}
