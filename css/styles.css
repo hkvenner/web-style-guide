@@ -30,7 +30,19 @@ p {
 .headline--secondary {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
-  color: #797e83; }
+  color: #797e83;
+  padding-bottom: 1.5em; }
+
+.link {
+  color: #00cccc;
+  text-decoration: none;
+  font-weight: 700; }
+
+.blockquote {
+  border-left: solid 9px #61EDBF;
+  padding-left: 1.5em;
+  font-style: italic;
+  font-size: 1.2em; }
 
 .nav {
   display: flex;
@@ -56,5 +68,9 @@ p {
   height: 50px; }
 .img--frame {
   display: none; }
+
+.form {
+  display: flex;
+  flex-direction: column; }
 
 /*# sourceMappingURL=styles.css.map */

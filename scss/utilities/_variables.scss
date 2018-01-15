@@ -27,14 +27,14 @@ $black    : #0b0b0b;
 $grey     : #797e83;
 
 $turquoise-blue  : #61EDBF;
-$sky-blue        : #61C5ED;
+$aqua        : #00FFFF;
 $pastel-green    : #61ED7A;
 $mandy           : #ED6170;
 $bamboo          : #DF5807;
 $medium-purple   : #9254ED;
 
-$sky-blue--dark       : darken($sky-blue, 30% );
-$sky-blue--light      : lighten($sky-blue, 30%);
+$aqua--dark       : darken($aqua, 10% );
+$aqua--light      : lighten($aqua, 30%);
 $medium-purple--light : lighten($medium-purple, 30%);
 $pastel-green--light  : lighten($pastel-green, 20%);
 $mandy--light         : lighten($mandy, 20%);

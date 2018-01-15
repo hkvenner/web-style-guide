@@ -18,5 +18,18 @@
   font-family: $font-family--primary;
   font-weight: $font-weight--thin;
   color: $grey;
+  padding-bottom: 1.5em;
 }
-// .headline--secondary
+.container{}
+
+.link{
+  color: $aqua--dark;
+  text-decoration: none;
+  font-weight: $font-weight--bold ;
+}
+.blockquote{
+  border-left : solid 9px $turquoise-blue;
+  padding-left:  1.5em;
+  font-style: italic;
+  font-size: 1.2em;
+}
