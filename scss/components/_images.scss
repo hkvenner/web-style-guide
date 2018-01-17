@@ -9,6 +9,15 @@
   }
   &--frame {
     //max-width: 480px;
-    display: none;
+    //display: none;
+    width: 100%;
+    border: solid 0.5px $grey;
+    padding: 0.5em;
+    margin-bottom: 1.5em;
+  }
+  &--avatar{
+    height: 199px;
+    width: 199px;
+    align-self: center;
   }
 }

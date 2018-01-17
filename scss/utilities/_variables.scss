@@ -33,12 +33,20 @@ $mandy           : #ED6170;
 $bamboo          : #DF5807;
 $medium-purple   : #9254ED;
 
-$aqua--dark       : darken($aqua, 10% );
+$aqua--dark       : darken($aqua, 5% );
 $aqua--light      : lighten($aqua, 30%);
 $medium-purple--light : lighten($medium-purple, 30%);
 $pastel-green--light  : lighten($pastel-green, 20%);
 $mandy--light         : lighten($mandy, 20%);
 $bamboo--light        : lighten($bamboo,20%);
+
+$button-palette: (
+  default: $aqua--dark,
+  success: $pastel-green,
+  error: $mandy,
+  warning: $bamboo,
+  info: $medium-purple
+);
 
 
 //==========================
