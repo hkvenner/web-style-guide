@@ -31,7 +31,8 @@ p {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   color: #797e83;
-  padding-bottom: 1.5em; }
+  padding-bottom: 1.5em;
+  padding-top: 3em; }
 
 .link {
   color: #00cccc;
@@ -42,7 +43,8 @@ p {
   border-left: solid 9px #61EDBF;
   padding-left: 1.5em;
   font-style: italic;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  border-bottom: 4em; }
 
 .nav {
   display: flex;
@@ -69,8 +71,24 @@ p {
 .img--frame {
   display: none; }
 
+.btn--default {
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 1.5em; }
+
 .form {
   display: flex;
   flex-direction: column; }
+  .form__input {
+    border: 0px;
+    border-bottom: 5px solid #61EDBF;
+    padding-top: 2em;
+    padding-bottom: 0.75em; }
+  .form__label--hidden {
+    display: none; }
+
+input::placeholder {
+  font-weight: 700;
+  color: #616468; }
 
 /*# sourceMappingURL=styles.css.map */

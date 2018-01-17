@@ -4,6 +4,23 @@
 
 .form {
   @include flexProperty(column);
+  @include e(input){
+    border: 0px;
+    border-bottom: 5px solid $turquoise-blue;
+    padding-top: 2em;
+    padding-bottom: 0.75em;
+  }
+  @include e(label){
+    @include m(hidden){
+      display: none;
+    }
+  }
+}
+
+input::placeholder{
+  font-weight: $font-weight--bold;
+  color: darken($grey, 10%);
+
 }
 .form__label--hidden {}
 .form__input{}
