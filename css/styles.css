@@ -21,103 +21,105 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%; }
+  width: 100%;
+  margin-top: 2em; }
 
 .grid__col--12.theme__colors {
   background-color: #61EDBF;
-  text-transform: uppercase;
   width: 100%;
-  margin-top: 1.5em;
-  color: #0b0b0b;
+  margin-top: 0.5em;
+  color: #616468;
   text-align: left;
-  padding: 8px 100px;
+  padding: 8px 17px;
   border-radius: 8px;
   border: 0px;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 12px; }
 
 .grid__col--6.theme__colors {
   background-color: #00e5e6;
-  text-transform: uppercase;
   width: 100%;
-  margin-top: 1.5em;
-  color: #0b0b0b;
+  margin-top: 0.5em;
+  color: #616468;
   text-align: left;
-  padding: 8px 100px;
+  padding: 8px 17px;
   border-radius: 8px;
   border: 0px;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 12px; }
 
 .grid__col--4.theme__colors {
   background-color: #00FFFF;
-  text-transform: uppercase;
   width: 100%;
-  margin-top: 1.5em;
-  color: #0b0b0b;
+  margin-top: 0.5em;
+  color: #616468;
   text-align: left;
-  padding: 8px 100px;
+  padding: 8px 17px;
   border-radius: 8px;
   border: 0px;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 12px; }
 
 .grid__col--3.theme__colors {
   background-color: #eadefc;
-  text-transform: uppercase;
   width: 100%;
-  margin-top: 1.5em;
-  color: #0b0b0b;
+  margin-top: 0.5em;
+  color: #616468;
   text-align: left;
-  padding: 8px 100px;
+  padding: 8px 17px;
   border-radius: 8px;
   border: 0px;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 12px; }
 
 .grid__col--5.theme__colors {
   background-color: #bdf7c7;
-  text-transform: uppercase;
   width: 100%;
-  margin-top: 1.5em;
-  color: #0b0b0b;
+  margin-top: 0.5em;
+  color: #616468;
   text-align: left;
-  padding: 8px 100px;
+  padding: 8px 17px;
   border-radius: 8px;
   border: 0px;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 12px; }
 
 .grid__col--7.theme__colors {
   background-color: #f7bdc3;
-  text-transform: uppercase;
   width: 100%;
-  margin-top: 1.5em;
-  color: #0b0b0b;
+  margin-top: 0.5em;
+  color: #616468;
   text-align: left;
-  padding: 8px 100px;
+  padding: 8px 17px;
   border-radius: 8px;
   border: 0px;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 12px; }
 
 .grid__col--8.theme__colors {
   background-color: #fa9152;
-  text-transform: uppercase;
   width: 100%;
-  margin-top: 1.5em;
-  color: #0b0b0b;
+  margin-top: 0.5em;
+  color: #616468;
   text-align: left;
-  padding: 8px 100px;
+  padding: 8px 17px;
   border-radius: 8px;
   border: 0px;
-  font-weight: 700; }
+  font-weight: 700;
+  font-size: 12px; }
 
 .headline--primary {
   color: #61EDBF;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  padding-left: 1em; }
+  padding-left: 0.5em;
+  font-size: 1.5em; }
 
 .headline--secondary {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 100;
   color: #797e83;
-  padding-bottom: 1.5em;
-  padding-top: 3em;
+  padding-bottom: 0.7em;
+  padding-top: 1.5em;
   margin-bottom: 0px;
   align-self: left; }
 
@@ -138,7 +140,7 @@ p {
   flex-direction: column;
   align-items: center;
   padding-left: 0px;
-  padding-bottom: 3.5em; }
+  padding-bottom: 2.5em; }
   .nav__item {
     padding-top: 20px; }
     .nav__item a {
@@ -168,8 +170,9 @@ p {
 .btn--default {
   background-color: #00e5e6;
   text-transform: uppercase;
-  width: 90%;
+  width: 95%;
   margin-top: 1.5em;
+  margin-left: 0.5em;
   color: #fff;
   padding: 10px 100px;
   border-radius: 8px;
@@ -179,8 +182,9 @@ p {
 .btn--success {
   background-color: #61ED7A;
   text-transform: uppercase;
-  width: 90%;
+  width: 95%;
   margin-top: 1.5em;
+  margin-left: 0.5em;
   color: #fff;
   padding: 10px 100px;
   border-radius: 8px;
@@ -190,8 +194,9 @@ p {
 .btn--error {
   background-color: #ED6170;
   text-transform: uppercase;
-  width: 90%;
+  width: 95%;
   margin-top: 1.5em;
+  margin-left: 0.5em;
   color: #fff;
   padding: 10px 100px;
   border-radius: 8px;
@@ -201,8 +206,9 @@ p {
 .btn--warning {
   background-color: #DF5807;
   text-transform: uppercase;
-  width: 90%;
+  width: 95%;
   margin-top: 1.5em;
+  margin-left: 0.5em;
   color: #fff;
   padding: 10px 100px;
   border-radius: 8px;
@@ -212,8 +218,9 @@ p {
 .btn--info {
   background-color: #9254ED;
   text-transform: uppercase;
-  width: 90%;
+  width: 95%;
   margin-top: 1.5em;
+  margin-left: 0.5em;
   color: #fff;
   padding: 10px 100px;
   border-radius: 8px;
