@@ -23,6 +23,90 @@ p {
   align-items: center;
   width: 100%; }
 
+.grid__col--12.theme__colors {
+  background-color: #61EDBF;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 1.5em;
+  color: #0b0b0b;
+  text-align: left;
+  padding: 8px 100px;
+  border-radius: 8px;
+  border: 0px;
+  font-weight: 700; }
+
+.grid__col--6.theme__colors {
+  background-color: #00e5e6;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 1.5em;
+  color: #0b0b0b;
+  text-align: left;
+  padding: 8px 100px;
+  border-radius: 8px;
+  border: 0px;
+  font-weight: 700; }
+
+.grid__col--4.theme__colors {
+  background-color: #00FFFF;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 1.5em;
+  color: #0b0b0b;
+  text-align: left;
+  padding: 8px 100px;
+  border-radius: 8px;
+  border: 0px;
+  font-weight: 700; }
+
+.grid__col--3.theme__colors {
+  background-color: #eadefc;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 1.5em;
+  color: #0b0b0b;
+  text-align: left;
+  padding: 8px 100px;
+  border-radius: 8px;
+  border: 0px;
+  font-weight: 700; }
+
+.grid__col--5.theme__colors {
+  background-color: #bdf7c7;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 1.5em;
+  color: #0b0b0b;
+  text-align: left;
+  padding: 8px 100px;
+  border-radius: 8px;
+  border: 0px;
+  font-weight: 700; }
+
+.grid__col--7.theme__colors {
+  background-color: #f7bdc3;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 1.5em;
+  color: #0b0b0b;
+  text-align: left;
+  padding: 8px 100px;
+  border-radius: 8px;
+  border: 0px;
+  font-weight: 700; }
+
+.grid__col--8.theme__colors {
+  background-color: #fa9152;
+  text-transform: uppercase;
+  width: 100%;
+  margin-top: 1.5em;
+  color: #0b0b0b;
+  text-align: left;
+  padding: 8px 100px;
+  border-radius: 8px;
+  border: 0px;
+  font-weight: 700; }
+
 .headline--primary {
   color: #61EDBF;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -84,7 +168,7 @@ p {
 .btn--default {
   background-color: #00e5e6;
   text-transform: uppercase;
-  width: 100%;
+  width: 90%;
   margin-top: 1.5em;
   color: #fff;
   padding: 10px 100px;
@@ -95,7 +179,7 @@ p {
 .btn--success {
   background-color: #61ED7A;
   text-transform: uppercase;
-  width: 100%;
+  width: 90%;
   margin-top: 1.5em;
   color: #fff;
   padding: 10px 100px;
@@ -106,7 +190,7 @@ p {
 .btn--error {
   background-color: #ED6170;
   text-transform: uppercase;
-  width: 100%;
+  width: 90%;
   margin-top: 1.5em;
   color: #fff;
   padding: 10px 100px;
@@ -117,7 +201,7 @@ p {
 .btn--warning {
   background-color: #DF5807;
   text-transform: uppercase;
-  width: 100%;
+  width: 90%;
   margin-top: 1.5em;
   color: #fff;
   padding: 10px 100px;
@@ -128,7 +212,7 @@ p {
 .btn--info {
   background-color: #9254ED;
   text-transform: uppercase;
-  width: 100%;
+  width: 90%;
   margin-top: 1.5em;
   color: #fff;
   padding: 10px 100px;
