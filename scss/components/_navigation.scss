@@ -9,6 +9,7 @@
   padding-bottom: 2.5em;
   //justify-content: space-between;
 
+
   @include e(item){
     //padding-bottom: 10px;
     padding-top: 20px;
@@ -23,11 +24,19 @@
     width: 100%;
     padding: 10px 100px;
     border-radius : 8px;
+    @include mq(large){
+      padding: 10px;
+    }
 
     &:hover {
       background-color: $turquoise-blue;
       color: $white;
     }
    }
+  }
+  //@include mq(large){
+  @include mq(large){
+    @include flexProperty(row);
+
   }
 }

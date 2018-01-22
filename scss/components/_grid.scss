@@ -13,6 +13,9 @@
   align-items: center;
   width: 100%;
   margin-top: 2em;
+  @include mq(large){
+    @include flexProperty(row);
+  }
 }
 
 @each $key, $value in $grid-palette {
