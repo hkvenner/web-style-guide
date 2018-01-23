@@ -10,6 +10,9 @@
     padding-top: 2em;
     padding-bottom: 0.75em;
   }
+  @include mq(large){
+    margin-bottom: 3em;
+  }
   @include e(label){
     @include m(hidden){
       display: none;

@@ -15,9 +15,28 @@
   margin-top: 2em;
   @include mq(large){
     @include flexProperty(row);
-    //justify-content: space-between;
+     //justify-content: space-between;
   }
 }
+
+.card {
+  @include mq(large){
+    //margin-right: 1.5em;
+    display: flex;
+    flex-direction: column;
+    //justify-content: space-around;
+  }
+}
+
+.grid__col--8{
+  @include mq(large){
+    & p, blockquote{
+     margin-right: 4em;
+   }
+  }
+}
+
+
 
 @each $key, $value in $grid-palette {
    .grid__col--#{$key}.theme__colors{

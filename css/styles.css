@@ -28,6 +28,15 @@ p {
       display: flex;
       flex-direction: row; } }
 
+@media (min-width: 769px) {
+  .card {
+    display: flex;
+    flex-direction: column; } }
+
+@media (min-width: 769px) {
+  .grid__col--8 p, .grid__col--8 blockquote {
+    margin-right: 4em; } }
+
 .grid__col--12.theme__colors {
   background-color: #61EDBF;
   width: 100%;
@@ -177,7 +186,7 @@ p {
   height: 50px; }
   @media (min-width: 769px) {
     .img--logo {
-      margin-right: 15em; } }
+      margin-right: 12em; } }
 .img--frame {
   width: 100%;
   border: solid 0.5px #797e83;
@@ -256,6 +265,9 @@ p {
     border-bottom: 5px solid #61EDBF;
     padding-top: 2em;
     padding-bottom: 0.75em; }
+  @media (min-width: 769px) {
+    .form {
+      margin-bottom: 3em; } }
   .form__label--hidden {
     display: none; }
 

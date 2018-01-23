@@ -7,7 +7,7 @@
     align-self: center;
     height: 50px;
     @include mq(large){
-      margin-right: 15em;
+      margin-right: 12em;
     }
   }
   &--frame {
@@ -17,6 +17,9 @@
     border: solid 0.5px $grey;
     padding: 0.5em;
     margin-bottom: 1.5em;
+    @include mq(large){
+      //margin-right: 3em;
+    }
   }
   &--avatar{
     height: 199px;
