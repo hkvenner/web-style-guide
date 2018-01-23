@@ -147,6 +147,9 @@ p {
   padding-bottom: 2.5em; }
   .nav__item {
     padding-top: 20px; }
+    @media (min-width: 769px) {
+      .nav__item {
+        padding-top: 0px; } }
     .nav__item a {
       text-decoration: none;
       color: #0b0b0b;
@@ -163,11 +166,18 @@ p {
   @media (min-width: 769px) {
     .nav {
       display: flex;
-      flex-direction: row; } }
+      flex-direction: row;
+      align-self: center;
+      padding-bottom: 0px;
+      padding-top: 0px;
+      justify-content: space-between; } }
 
 .img--logo {
   align-self: center;
   height: 50px; }
+  @media (min-width: 769px) {
+    .img--logo {
+      margin-right: 15em; } }
 .img--frame {
   width: 100%;
   border: solid 0.5px #797e83;

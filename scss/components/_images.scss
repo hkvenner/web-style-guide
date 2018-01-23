@@ -6,6 +6,9 @@
   &--logo{
     align-self: center;
     height: 50px;
+    @include mq(large){
+      margin-right: 15em;
+    }
   }
   &--frame {
     //max-width: 480px;

@@ -13,6 +13,9 @@
   @include e(item){
     //padding-bottom: 10px;
     padding-top: 20px;
+    @include mq(large){
+      padding-top: 0px;
+    }
 
 
 
@@ -37,6 +40,10 @@
   //@include mq(large){
   @include mq(large){
     @include flexProperty(row);
-
+    align-self: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    justify-content: space-between;
+    //margin-right: 20em;
   }
 }

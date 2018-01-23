@@ -15,6 +15,7 @@
   margin-top: 2em;
   @include mq(large){
     @include flexProperty(row);
+    //justify-content: space-between;
   }
 }
 
