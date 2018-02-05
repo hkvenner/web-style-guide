@@ -25,5 +25,8 @@
     height: 199px;
     width: 199px;
     align-self: center;
+    @include mq(large){
+      
+    }
   }
 }

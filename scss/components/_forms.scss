@@ -10,8 +10,10 @@
     padding-top: 2em;
     padding-bottom: 0.75em;
   }
+  //fixing the problem has something to do with the max width
   @include mq(large){
     margin-bottom: 3em;
+    align-self: center;
   }
   @include e(label){
     @include m(hidden){
