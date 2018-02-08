@@ -26,14 +26,18 @@ p {
   @media (min-width: 769px) {
     .grid__row {
       display: flex;
-      flex-direction: row; } }
+      flex-direction: row;
+      justify-content: space-between; } }
 
 @media (min-width: 769px) {
   .card {
     display: flex;
     flex-direction: column;
-    vertical-align: top;
-    max-width: 500px; } }
+    vertical-align: top; } }
+
+@media (min-width: 769px) {
+  .grid__col--8 .card {
+    width: 500px; } }
 
 @media (min-width: 769px) {
   .grid__col--8 p, .grid__col--8 blockquote {
@@ -202,6 +206,9 @@ p {
   height: 199px;
   width: 199px;
   align-self: center; }
+  @media (min-width: 769px) {
+    .img--avatar {
+      margin-right: 30px; } }
 
 .btn--default {
   background-color: #00e5e6;
@@ -274,7 +281,8 @@ p {
   @media (min-width: 769px) {
     .form {
       margin-bottom: 3em;
-      align-self: center; } }
+      align-self: center;
+      padding-right: 30px; } }
   .form__label--hidden {
     display: none; }
 

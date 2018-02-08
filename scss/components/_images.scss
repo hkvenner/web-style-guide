@@ -18,7 +18,7 @@
     padding: 0.5em;
     margin-bottom: 1.5em;
     @include mq(large){
-      //margin-right: 3em;
+      
     }
   }
   &--avatar{
@@ -26,7 +26,7 @@
     width: 199px;
     align-self: center;
     @include mq(large){
-      
+      margin-right: 30px;
     }
   }
 }

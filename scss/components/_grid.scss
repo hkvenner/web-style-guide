@@ -15,8 +15,8 @@
   margin-top: 2em;
   @include mq(large){
     @include flexProperty(row);
-    //REIMPLEMENT this! the justify content but only for the troublesome grid row
-     //justify-content: space-between;
+    //REIMPLEMENT this! the justify content but only for the troublesome grid row. maybe try justifying the individual items
+    justify-content: space-between;
   }
 }
 
@@ -26,10 +26,16 @@
     display: flex;
     flex-direction: column;
     vertical-align: top;
-    max-width: 500px;
     //justify-content: space-around;
   }
 }
+
+.grid__col--8 .card {
+  @include mq(large){
+    width: 500px;
+  }
+}
+
 
 .grid__col--8{
   @include mq(large){
