@@ -1,8 +1,7 @@
 //******************************************************************************
 // Buttons
 //******************************************************************************
-//loop through each color in the palette and create a button for that see sass
-//maps page
+
 
 @each $key, $value in $button-palette {
   .btn--#{$key}{
@@ -21,20 +20,4 @@
       margin-right: 1em;
     }
   }
-}
-
-.btn--error{
-
-}
-.btn--warning{
-
-}
-.btn--info{
-
-}
-//you need to make a map in the variables file with all the colors
-//then you need to make theme__colors nested but output at the same level of the
-//button default class. then output the color for default from the map.  try this.
-.theme__colors{
-
 }

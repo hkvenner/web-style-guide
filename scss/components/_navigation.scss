@@ -7,7 +7,6 @@
   align-items: center;
   padding-left: 0px;
   padding-bottom: 2.5em;
-  //justify-content: space-between;
 
 
   @include e(item){
@@ -17,9 +16,6 @@
       padding-top: 0px;
     }
 
-
-
-    //add hover and selected classes
     & a{
     text-decoration: none;
     color: $black;
@@ -37,13 +33,12 @@
     }
    }
   }
-  //@include mq(large){
+
   @include mq(large){
     @include flexProperty(row);
     align-self: center;
     padding-bottom: 0px;
     padding-top: 0px;
     justify-content: space-between;
-    //margin-right: 20em;
   }
 }

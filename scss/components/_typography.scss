@@ -2,13 +2,6 @@
 // Typography
 //******************************************************************************
 
-// .container
-// .link
-// .blockquote
-// .headline--primary{
-//   font-family: $font-family--primary;
-//   color: $grey;
-// }
 .headline--primary{
   color: $turquoise-blue;
   font-family: $font-family--primary;
@@ -28,7 +21,6 @@
   margin-bottom: 0px;
   align-self: left;
 }
-.container{}
 
 .link{
   color: $aqua--dark;
