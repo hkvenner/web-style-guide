@@ -14,7 +14,8 @@
   @include mq(large){
     margin-bottom: 3em;
     align-self: center;
-    padding-right: 30px;
+    //padding-right: 30px;
+
   }
   @include e(label){
     @include m(hidden){
