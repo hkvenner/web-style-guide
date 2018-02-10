@@ -7,6 +7,10 @@
   align-items: center;
   padding-left:3%;
   padding-right:5%;
+  @include mq(xlarge){
+    padding-left: 15%;
+    padding-right: 15%;
+  }
 }
 .grid__row{
   @include flexProperty(column);
@@ -18,11 +22,13 @@
     //REIMPLEMENT this! the justify content but only for the troublesome grid row. maybe try justifying the individual items
     justify-content: space-between;
   }
+
 }
 
 .grid__col--12 {
     @include mq(large){
       display: flex;
+      width: 100%;
     }
 }
 
@@ -39,6 +45,10 @@
 .grid__col--8 .card {
   @include mq(large){
     width: 485px;
+  }
+  @include mq(xlarge){
+    display: flex;
+    width: 550px;
   }
 }
 

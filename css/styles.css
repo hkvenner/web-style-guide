@@ -16,6 +16,10 @@ p {
   align-items: center;
   padding-left: 3%;
   padding-right: 5%; }
+  @media (min-width: 1024px) {
+    .container {
+      padding-left: 15%;
+      padding-right: 15%; } }
 
 .grid__row {
   display: flex;
@@ -31,7 +35,8 @@ p {
 
 @media (min-width: 769px) {
   .grid__col--12 {
-    display: flex; } }
+    display: flex;
+    width: 100%; } }
 
 @media (min-width: 769px) {
   .card {
@@ -42,6 +47,10 @@ p {
 @media (min-width: 769px) {
   .grid__col--8 .card {
     width: 485px; } }
+@media (min-width: 1024px) {
+  .grid__col--8 .card {
+    display: flex;
+    width: 550px; } }
 
 @media (min-width: 769px) {
   .grid__col--8 p, .grid__col--8 blockquote {

@@ -17,6 +17,11 @@
       @content;
     }
   }
+  @else if $break == "xlarge"{
+    @media (min-width: $break-extra-lg){
+      @content;
+    }
+  }
 
 }
 //==========================
