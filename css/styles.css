@@ -30,6 +30,10 @@ p {
       justify-content: space-between; } }
 
 @media (min-width: 769px) {
+  .grid__col--12 {
+    display: flex; } }
+
+@media (min-width: 769px) {
   .card {
     display: flex;
     flex-direction: column;
@@ -221,6 +225,10 @@ p {
   border-radius: 8px;
   border: 0px;
   font-weight: 700; }
+  @media (min-width: 769px) {
+    .btn--default {
+      padding: 10px 30px;
+      margin-right: 2em; } }
 
 .btn--success {
   background-color: #61ED7A;
@@ -233,6 +241,10 @@ p {
   border-radius: 8px;
   border: 0px;
   font-weight: 700; }
+  @media (min-width: 769px) {
+    .btn--success {
+      padding: 10px 30px;
+      margin-right: 2em; } }
 
 .btn--error {
   background-color: #ED6170;
@@ -245,6 +257,10 @@ p {
   border-radius: 8px;
   border: 0px;
   font-weight: 700; }
+  @media (min-width: 769px) {
+    .btn--error {
+      padding: 10px 30px;
+      margin-right: 2em; } }
 
 .btn--warning {
   background-color: #DF5807;
@@ -257,6 +273,10 @@ p {
   border-radius: 8px;
   border: 0px;
   font-weight: 700; }
+  @media (min-width: 769px) {
+    .btn--warning {
+      padding: 10px 30px;
+      margin-right: 2em; } }
 
 .btn--info {
   background-color: #9254ED;
@@ -269,6 +289,10 @@ p {
   border-radius: 8px;
   border: 0px;
   font-weight: 700; }
+  @media (min-width: 769px) {
+    .btn--info {
+      padding: 10px 30px;
+      margin-right: 2em; } }
 
 .form {
   display: flex;

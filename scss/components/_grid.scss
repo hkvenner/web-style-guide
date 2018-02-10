@@ -20,6 +20,12 @@
   }
 }
 
+.grid__col--12 {
+    @include mq(large){
+      display: flex;
+    }
+}
+
 .card {
   @include mq(large){
     //margin-right: 1.5em;

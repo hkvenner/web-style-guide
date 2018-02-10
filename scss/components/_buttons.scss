@@ -16,8 +16,13 @@
     border-radius : 8px;
     border: 0px;
     font-weight: $font-weight--bold;
+    @include mq(large){
+      padding: 10px 30px;
+      margin-right: 2em;
+    }
   }
 }
+
 
 // .btn--default{
 //   text-transform: uppercase;
